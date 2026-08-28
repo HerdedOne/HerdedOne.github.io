@@ -1,12 +1,12 @@
 :root {
-    --background: #FFDCCC;
-    --surface: #FFDCCC;
-    --surface-light: #242131;
-    --text: #FB6376;
+    --background: #EED5C2;
+    --surface: #EDA4BD;
+    --surface-light: #EED5C2;
+    --text: #7C606B;
     --muted: #5D2A42;
-    --accent: #FB6376;
-    --accent-dark: #5D2A42;
-    --border: #FFDCCC;
+    --accent: #C46BAE;
+    --accent-dark: #57414A;
+    --border: #EB7BC0;
     --max-width: 1100px;
 }
 
@@ -86,7 +86,7 @@ a {
 
 .hero {
     padding: 7rem 0 6rem;
-    background: linear-gradient(135deg, #111018 0%, #211b31 100%);
+    background: linear-gradient(135deg, #EDA4BD 0%, #EDA4BD 100%);
 }
 
 .hero-content {
@@ -169,10 +169,10 @@ h4 {
     color: #15121d;
 }
 
-.button.primary:hover,
-.button.primary:focus {
-    background: #cfb8ff;
-}
+    .button.primary:hover,
+    .button.primary:focus {
+        background: #EDA4BD;
+    }
 
 .button.secondary:hover,
 .button.secondary:focus {
@@ -228,12 +228,12 @@ h4 {
     overflow: hidden;
 }
 
-.project-card > img {
-    width: 100%;
-    aspect-ratio: 16 / 9;
-    object-fit: cover;
-    background: #0c0b10;
-}
+    .project-card > img {
+        width: 100%;
+        aspect-ratio: 16 / 9;
+        object-fit: cover;
+        background: ##EDA4BD;
+    }
 
 .project-content {
     padding: 1.5rem;
